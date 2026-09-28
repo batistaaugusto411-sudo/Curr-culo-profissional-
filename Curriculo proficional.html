@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Profissional</title>
+</head>
+<body>
+
+    <header>
+        <h1>Augusto Batista - Desenvolvedor Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <!-- Imagem de perfil substituível -->
+            <img class="banner" src="foto pessoal.jpg"
+             alt="Foto de perfil"
+            width="200"
+            height="200">
+            <p>Sou estudante de <strong>Desenvolvimento de Sistemas no SENAI</strong>.</p>
+            <p><em>Tenho conhecimento em HTML, CSS e estou aprendendo JavaScript.</em></p>
+            
+            <h3>Minhas Habilidades:</h3>
+            <ul>
+                <li>HTML5 Semântico</li>
+                <li>CSS3 e Responsividade</li>
+                <li>Formulários e Validação</li>
+                <li>Estruturação de Dados</li>
+            </ul>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jogo Retro</td>
+                        <td>HTML</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/batistaaugusto411-sudo/Jogos-Retro">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Filme favorito</td>
+                        <td>HTML</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/batistaaugusto411-sudo/filme-favorito">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Tipografia e cores na pratica</td>
+                        <td>CSS</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/batistaaugusto411-sudo/Atividade-Tipografia-e-Cores-na-Pr-tica">Ver Projeto</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Dados do Contato</legend>
+                    
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome">
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email">
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto:</label><br>
+                        <select id="assunto" name="assunto">
+                            <option value="oportunidade">Oportunidade de Trabalho</option>
+                            <option value="parceria">Parceria</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="4" cols="30"></textarea>
+                    </p>
+
+                    <button type="submit">Enviar Mensagem</button>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+        <p>
+            <a href="batistaaugusto@gmail.com">batistaaugusto@gmail.com</a> | 
+            <a href="tel:11918557627">(11) 91855-7627</a>
+        </p>
+    </footer>
+
+</body>
+</html>
